@@ -417,7 +417,7 @@ class StoryView extends StatefulWidget {
     this.repeat = false,
     this.inline = false,
     this.onVerticalSwipeComplete,
-    this.indicatorColor,
+    this.indicatorColor = Colors.white,
   });
 
   @override
@@ -737,7 +737,7 @@ class PageBar extends StatefulWidget {
     this.pages,
     this.animation, {
     this.indicatorHeight = IndicatorHeight.large,
-    this.indicatorColor,
+    this.indicatorColor = Colors.white,
     Key? key,
   }) : super(key: key);
 
